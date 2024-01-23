@@ -5,7 +5,7 @@ go 1.21.3
 require (
 	aidanwoods.dev/go-paseto v1.5.1
 	github.com/badoux/checkmail v1.2.1
-	github.com/intern-monitoring/backend-intermoni v0.2.59
+	github.com/intern-monitoring/backend-intermoni v0.2.79
 	go.mongodb.org/mongo-driver v1.13.1
 	golang.org/x/crypto v0.16.0
 )
