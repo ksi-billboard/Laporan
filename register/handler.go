@@ -15,6 +15,7 @@ var (
 )
 
 func SignUpHandler(MONGOCONNSTRINGENV, dbname string, r *http.Request) string {
+
 	conn := MongoConnect(MONGOCONNSTRINGENV, dbname)
 	response.Status = 400
 	//
